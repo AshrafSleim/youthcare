@@ -1,0 +1,102 @@
+#bg{
+    margin-top : 300px;
+    background : url("../images/1.jpg") ; 
+    background-size: cover  ;
+    background-repeat: no-repeat ; 
+    background-attachment: fixed ; 
+}
+.nav-pills .nav-item .nav-link.active
+{
+    border-bottom-left-radius: 0 !important; 
+    border-bottom-right-radius: 0  !important;
+    background-color :#f8f9fa !important; 
+}
+.tab-pane{
+    border-radius : 10px; 
+}
+
+
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+.form-content { 
+    margin-top : 80px ;
+   
+}
+.main {
+   background:url(../images/555.jpg) ;
+    background-size : cover ;
+}
+.menu_nav {
+	margin-right :80px;
+	padding:0;
+	height:56px;
+	float:right;
+}
+.menu_nav ul {
+	list-style:none;
+	padding:0 36px 0 0;
+	height:56px;
+	float:left;
+}
+.menu_nav ul li {
+	margin:0;
+	padding:0 2px 0 0;
+	float:left;
+	background:url(../images/menu_split.gif) no-repeat right center;
+}
+.menu_nav ul li a {
+	display:block;
+	margin:0;
+	padding:19px 12px;
+	font-size:14px;
+	line-height:18px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	text-transform:none;
+	text-align:center;
+}
+.menu_nav ul li.active a, .menu_nav ul li a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+.menu_nav h2 {
+    color : white  !important; 
+    margin-right : 20px ;
+    margin-top  : 10px;
+
+}
+ label  {
+    color  : #fff !important ; 
+    font-size : 18px ; 
+    font-weight : 400 ;  
+
+}
+button.btn.btn-outline-success {
+    color : white ;
+}
+.list-group{
+	font-size : 18px ;
+	
+	font-weight: bold;
+	margin: 100px 0px 0px 0px;
+}
+header { 
+	display: block;
+	color: #fff;
+	background:#00376d ;
+	
+
+	
+}
